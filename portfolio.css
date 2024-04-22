@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(180deg, rgb(20, 195, 239), black);
+    height: 100vh;
+     background-repeat: repeat-y;     
+     background-size: cover;
+     background-position: center;
+}
+
+@media only screen and (max-width: 768px){
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.holder{
+    background-color: black;
+    margin: 50px;
+    border-radius: 20px;
+    width: 100px 100px 100px 100px;
+    /* height: 430px; */
+}
+
+.nav{
+    float: left;
+    /* width: 100%; */
+    padding: 10px 50px;
+}
+
+.van{
+    /* width: 50%; */
+    float: left;
+}
+
+.nev{
+    /* width: 50%; */
+    float: left;
+}
+
+.body{
+    line-height: 40px;
+    width: 100%;
+}
+
+.body::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h5{
+    color: white;
+}
+
+div a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.nev a:hover{
+    background-color: green;
+    color: blanchedalmond;
+    padding: 5px;
+}
+
+.body{
+    padding: 50px;
+}
+
+.left{
+    /* width: 50%; */
+    float: left;
+}
+
+.pic{
+    width: 50%;
+    float: left;
+}
+
+#white{
+    color: rgb(252, 250, 250);
+}
+
+#fonts{
+    display: flex;
+}
+
+#color{
+    color: black;
+    background-color: aqua;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+.pic{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* padding: 50px 20px 50px 50px; */
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
