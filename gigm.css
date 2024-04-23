@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.body{
+    width: 100%;
+}
+/* nav */
+.navall{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    margin-top: 0;
+    padding: 10px;
+    border-bottom: 0.5px solid gray;
+}
+.navlink span{
+    padding: 8px;
+}
+.navlink span:hover{
+    color: white;
+    background-color: red;
+    padding: 8px;
+}
+.rightnav{
+    display: flex;
+    width: 250px;
+}
+#logo1{
+    width: 150px;
+}
+/* section two */
+.two{
+    background-image: url(images/backdrop22.png);
+    padding: 50px;
+    display: flex;
+    /* width: 70%; */
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+}
+
+.leftsd{
+    font-size: 15px;
+    
+}
+
+.rightsd{
+    font-size: 15px;
+    
+}
+
+#no1{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#no2{
+    background-color: white;
+    color: rgb(8, 7, 7);
+    padding: 10px;
+    text-align: center;
+}
+
+.blank{
+    background-image: url(images/bgdd.png);
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    border-top: 3px solid red;
+}
+
+#oneness{
+    color: white;
+}
+
+.bookbtn{
+    background-color: red;
+    color: white;
+    padding: 8px;
+}
+
+.righttop{
+    width: 80%;
+}
+.three{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.table{
+    font-size: 14px;
+    padding: 30px;
+    background-color: rgb(220, 224, 245);
+    width: 30%;
+}
+
+.tmiddle{
+    text-align: center;
+    width: 30%;
+    margin: 0;
+    
+}
+
+.tright{
+    text-align: center;
+    width: 30%;
+    margin: 0;
+    
+}
+
+#h1{
+    /* text-align:center */
+}
+
+#div4{
+    display: flex;
+    justify-content: center;
+    grid-area: 3px;
+    gap: 5px;
+}
+
+.div4{
+    width: 150px;
+}
+
+#trend{
+    color: blue;
+}
+
+#table{    
+    border-collapse: collapse; 
+}
+
+tr{
+    background-color: white;
+}
+
+th, td{
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.hold{
+    width: 100%;
+
+}
+
+footer{
+    max-width: 100%;
+    background-color: rgb(10, 7, 7);
+    color: white;
+    display: flex;
+    padding: 5px 5px 5px 180px;
+    /* padding-top: 5px; */
+    gap: 30px;
+    justify-content: center;
+}
+
+#gerrit{
+    display: flex;
+    gap: 30px;
+    width: 80%;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+.imag{
+    width: 40px;
+    background-color: orange;
+}
+.invert{
+    width: 30%;
+}
