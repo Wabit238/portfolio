@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+}
+.facebook{
+    float: left;
+    top: 0;
+    margin: 50px;
+}
+.youtube{
+    float: left;
+    top: 0;
+    margin: 50px;
+}
+.x{
+    float: left;
+    top: 0;
+    margin: 50px;
+}
+.instagram{
+    float: left;
+    top: 0;
+    margin: 50px;
+}
+.wahtsapp{
+    float: left;
+    top: 0;
+    margin: 50px;
+}
+.tiktok{
+    float: left;
+    top: 0;
+    margin: 50px;
+}
